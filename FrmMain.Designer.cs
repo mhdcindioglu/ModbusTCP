@@ -36,7 +36,7 @@ namespace WindowsFormsApp1
             System.Windows.Forms.Label label4;
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.BtnConnect = new System.Windows.Forms.Button();
-            this.GrpConnect = new MfgControl.AdvancedHMI.Controls.GroupPanel();
+            this.GrpConnect = new System.Windows.Forms.GroupBox();
             this.TxtRefresh = new System.Windows.Forms.TextBox();
             this.TxtSlaveAddress = new System.Windows.Forms.TextBox();
             this.TxtPort = new System.Windows.Forms.TextBox();
@@ -46,7 +46,7 @@ namespace WindowsFormsApp1
             this.BtnRead = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.TxtRegisterAddress = new System.Windows.Forms.TextBox();
-            this.GrpReadWrite = new MfgControl.AdvancedHMI.Controls.GroupPanel();
+            this.GrpReadWrite = new System.Windows.Forms.GroupBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
@@ -130,8 +130,6 @@ namespace WindowsFormsApp1
             // GrpConnect
             // 
             this.GrpConnect.BackColor = System.Drawing.Color.Transparent;
-            this.GrpConnect.BackColor2 = System.Drawing.Color.Green;
-            this.GrpConnect.BackColor3 = System.Drawing.Color.Red;
             this.GrpConnect.Controls.Add(this.TxtRefresh);
             this.GrpConnect.Controls.Add(label4);
             this.GrpConnect.Controls.Add(this.TxtSlaveAddress);
@@ -142,8 +140,6 @@ namespace WindowsFormsApp1
             this.GrpConnect.Controls.Add(label2);
             this.GrpConnect.Location = new System.Drawing.Point(6, 9);
             this.GrpConnect.Name = "GrpConnect";
-            this.GrpConnect.SelectBackColor2 = false;
-            this.GrpConnect.SelectBackColor3 = false;
             this.GrpConnect.Size = new System.Drawing.Size(449, 33);
             this.GrpConnect.TabIndex = 2;
             // 
@@ -226,8 +222,6 @@ namespace WindowsFormsApp1
             // GrpReadWrite
             // 
             this.GrpReadWrite.BackColor = System.Drawing.Color.Transparent;
-            this.GrpReadWrite.BackColor2 = System.Drawing.Color.Green;
-            this.GrpReadWrite.BackColor3 = System.Drawing.Color.Red;
             this.GrpReadWrite.Controls.Add(this.label13);
             this.GrpReadWrite.Controls.Add(this.label12);
             this.GrpReadWrite.Controls.Add(this.label10);
@@ -248,8 +242,6 @@ namespace WindowsFormsApp1
             this.GrpReadWrite.Controls.Add(this.label11);
             this.GrpReadWrite.Location = new System.Drawing.Point(12, 63);
             this.GrpReadWrite.Name = "GrpReadWrite";
-            this.GrpReadWrite.SelectBackColor2 = false;
-            this.GrpReadWrite.SelectBackColor3 = false;
             this.GrpReadWrite.Size = new System.Drawing.Size(776, 375);
             this.GrpReadWrite.TabIndex = 1;
             this.GrpReadWrite.Visible = false;
@@ -440,7 +432,7 @@ namespace WindowsFormsApp1
         #endregion
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button BtnConnect;
-        private MfgControl.AdvancedHMI.Controls.GroupPanel GrpConnect;
+        private System.Windows.Forms.GroupBox GrpConnect;
         private System.Windows.Forms.TextBox TxtIP;
         private System.Windows.Forms.TextBox TxtSlaveAddress;
         private System.Windows.Forms.TextBox TxtPort;
@@ -450,7 +442,7 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Button BtnRead;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox TxtRegisterAddress;
-        private MfgControl.AdvancedHMI.Controls.GroupPanel GrpReadWrite;
+        private System.Windows.Forms.GroupBox GrpReadWrite;
         private System.Windows.Forms.TextBox TxtRegisterCount;
         private System.Windows.Forms.Label LblTemp4;
         private System.Windows.Forms.Label LblTemp3;
